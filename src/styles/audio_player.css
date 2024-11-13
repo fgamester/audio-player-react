@@ -1,12 +1,36 @@
-.timeControl {
+.time-control {
     appearance: none;
     height: 3px !important;
+    width: 80%;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.time-control::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+.timer-div{
+    min-height: 24px;
+}
+
+.volume-control {
+    appearance: none;
+    height: 3px !important;
+    min-width: 30px;
     width: 100%;
     background-color: lightgrey;
     cursor: pointer;
 }
 
-.timeControl::-webkit-slider-thumb {
+.volume-control::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     height: 15px;
@@ -27,4 +51,11 @@ ul {
 
 .resumeBtn {
     width: 24px;
+}
+
+.pb-pb {
+    padding-bottom: 90px;
+}
+.player-bar{
+    min-height: 92px;
 }
