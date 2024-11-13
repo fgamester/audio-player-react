@@ -1,0 +1,30 @@
+.timeControl {
+    appearance: none;
+    height: 3px !important;
+    width: 100%;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.timeControl::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+.pointerHover :hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.resumeBtn {
+    width: 24px;
+}
